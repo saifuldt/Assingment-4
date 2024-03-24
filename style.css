@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li a {
+    color: #828297;
+    font-family: "Airbnb Cereal App";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 100% */
+}
+
+.menu ul li a:hover {
+    color: var(--Secondary, #00E5CC);
+    font-family: "Airbnb Cereal App";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+    /* 100% */
+}
+
+.free {
+    display: inline-flex;
+    height: 55px;
+    padding: 0px 30px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #060640;
+    color: #FFFFFF;
+}
+
+.work:hover,
+.pack:hover {
+    box-shadow: 0px 30px 50px 0px #0303251e;
+}
+
+
+.srch input {
+    color: #9090A7;
+    font-family: "Airbnb Cereal App";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    padding: 10px;
+
+}
+
+.img-promo {
+    background-image: url(./images/Vector.png);
+    background-repeat: no-repeat;
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.80) 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+.icon-logo i:hover {
+    color: #00E5CC;
+}
+
+.link-line ul li a {
+    color: #9090A7;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link-line ul li a:hover{
+    color: #828297;
+}
